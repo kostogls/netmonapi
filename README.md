@@ -1,4 +1,4 @@
-# netmonapi
+# NetMon API
 ### Backend for AI4NetMon project
 
 Steps:
