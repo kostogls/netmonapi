@@ -1,4 +1,4 @@
 def credentials():
-    username = 'sofiak'
-    pwd = 'digSTlkgZClyBUKR'
+    username = ''
+    pwd = ''
     return username, pwd
