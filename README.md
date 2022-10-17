@@ -19,10 +19,10 @@ Every example below comes right after 8000.
   *e.g: /asns?page=1&size=50 for showing the first page of results and 50 ASNs per page.*
   
 * /asn/{ASN}: takes the AS number as parameter and returns all its attributes.
-  *e.g: /asn/10 to get results for the AS number 10.*
+  *e.g: /asn/10 to get results for the `AS number 10`.*
    
 * /bias/: takes multiple AS numbers as parameters, calculates bias across all dimensions for the particular set and returns it.
-  *e.g: /bias/?asn=12&asn=178&asn=1500 to get bias for the set consisting of AS numbers: {12, 178, 1500}.*
+  *e.g: /bias/?asn=12&asn=178&asn=1500 to get bias for the set consisting of `AS numbers: {12, 178, 1500}`.*
   
 * /bias/{imp}: takes a particular set as parameter: (Atlas, RIS, RIS&RouteViews, rrc00, rrc01 ... rrc26) and returns the bias of the set across all dimensions.
   *e.g: /bias/Atlas to get the precalculated bias for the `Atlas` set.*
