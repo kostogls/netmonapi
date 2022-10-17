@@ -66,6 +66,7 @@ class PrecalcBias(BaseModel):
 
 
 class DiffInBias(BaseModel):
+    ASN: str
     Location_bias: str
     Network_size_bias: str
     Topology_bias: str
