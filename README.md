@@ -3,12 +3,18 @@
 
 Steps:
 
-1. Clone repository
+  1. Clone repository
 
-2. Inside netmonapi directory open terminal and run:
-  $sudo docker compose up --build -d
-  
-3. In a browser open: http://localhost:8000/docs
+  2. Create a ".env" file in the repository with the following two variables
+  ```
+  DB_USER=your_username_for_the_db
+  DB_PWD=your_pwd_for_the_db
+  ```
+
+  3. Inside netmonapi directory open terminal and run:
+    $sudo docker compose up --build -d
+    
+  4. In a browser open: http://localhost:8000/docs
 
 ### Endpoints and Parameters
 
